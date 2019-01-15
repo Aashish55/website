@@ -103,6 +103,7 @@ a {
 .overlay {
   position: relative;
   width: 90%;
+  left: 3%;
   z-index: 1;
   background: none;
   height: 512px;
