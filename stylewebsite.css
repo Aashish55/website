@@ -1,10 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  background: #c6eaea;
 }
 .container {
   height: 1000px;
-  background: #c6eaea;
+
+  width: 100%;
 }
 
 a {
@@ -17,7 +20,7 @@ a {
   padding: 10px 50px;
   width: 100%;
   height: 58px;
-  z-index: 5;
+  z-index: 3;
   display: grid;
   position: fixed;
   border-bottom: 3px solid #00b894;
@@ -99,7 +102,7 @@ a {
 }
 .overlay {
   position: relative;
-  width: 100%;
+  width: 90%;
   z-index: 1;
   background: none;
   height: 512px;
