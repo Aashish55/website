@@ -22,14 +22,14 @@
     <div class="container">
       <div class="navBar">
         <div class="site-logo">
-          <a href="#" class="AJ">
+          <a href="http://www.aashishjangam.com.np/" class="AJ">
             <span> <span class="a">A.</span>J</span>
           </a>
         </div>
 
         <div class="navigationButtonContainer">
           <nav id="navigationButtons">
-            <a href="#skills" class="navigationButton">Skills</a>
+            <a href="#skills" class="navigationButton" onclick="scrollWin()">Skills</a>
             <a href="#interests" class="navigationButton">Interests</a>
             <a href="#portfolio" class="navigationButton">Portfolio</a>
             <a href="#contact" class="navigationButton">Contact</a>
@@ -183,27 +183,13 @@
       </div>
       </div>
 
-
-      <div id='loading'>
-          <div class='outer-shadow'></div>
-          <div class='inner-shadow'></div>
-          <div class='timer'>
-            <div class='dot'>
-              <span></span>
-            </div>
-            <div class='hold' id='left'>
-              <div class='pie'></div>
-            </div>
-            <div class='hold' id='right'>
-              <div class='pie'></div>
-            </div>
-          </div>
-        </div>
-        
-
-
       <script type="text/javascript" src="particles.js"></script>
       <script type="text/javascript" src="main.js"></script>
+      <script>
+          function scrollWin() {
+            window.scrollBy(0, 900);
+          }
+          </script>
 
       <div class="footer">
         <span>2019 &copy Aashish Jangam</span>
