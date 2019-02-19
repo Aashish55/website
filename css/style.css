@@ -164,12 +164,12 @@ canvas {
 }
 
 .section {
-    background-color: #fff;
+    background-color: #fafafa;
     padding: 100px 0;
 }
 
 .second-bg {
-    background-color: #fafafa;
+    background-color: #e1e1e1;
 }
 
 .section-title {
@@ -321,6 +321,10 @@ Navigation
 .nav-sticky .navbar-brand,
 .nav-sticky .nav li a {
     color: #232323;
+}
+
+.nav-sticky .navbar-brand span {
+    color: ;
 }
 
 .nav-sticky .nav li a:after {
